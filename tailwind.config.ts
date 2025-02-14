@@ -11,8 +11,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        red: "red",
       },
+      screens: {
+        xl: "480px",
+      }
+    },
+    container: {
+      center: true,
+      padding: "2rem",
     },
   },
   plugins: [],
+  corePlugins: {
+    float: false,
+  },
 } satisfies Config;

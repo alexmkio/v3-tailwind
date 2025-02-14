@@ -1,4 +1,11 @@
+"use client";
 import Image from "next/image";
+import resolveConfig from "tailwindcss/resolveConfig";
+import tailwindConfig from "../../tailwind.config";
+
+const fullConfig = resolveConfig(tailwindConfig);
+
+console.log(fullConfig.theme.screens.xl);
 
 export default function Home() {
   return (
@@ -96,6 +103,14 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <div className="bg-opacity-50 text-opacity-50 border-opacity-50 divide-opacity-50 ring-opacity-50 placeholder-opacity-50 flex-shrink-0 flex-grow-0 overflow-ellipsis decoration-slice shadow-sm drop-shadow-sm  blur-sm backdrop-blur-sm rounded-sm outline-none ring border first:*:pt-0 last:*:pb-0">
+        <div className="decoration-clone rounded backdrop-blur blur drop-shadow shadow bg-[--brand-color]">
+          asdf
+        </div>
+      </div>
+      <div className="dark bg-gradient-to-r from-red-500 to-yellow-400 hover:from-blue-500">
+        sdfgasdfasdf
+      </div>
     </div>
   );
 }

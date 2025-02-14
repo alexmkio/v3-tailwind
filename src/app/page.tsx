@@ -22,7 +22,7 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded-sm font-semibold">
               src/app/page.tsx
             </code>
             .
@@ -103,12 +103,12 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-      <div className="bg-opacity-50 text-opacity-50 border-opacity-50 divide-opacity-50 ring-opacity-50 placeholder-opacity-50 flex-shrink-0 flex-grow-0 overflow-ellipsis decoration-slice shadow-sm drop-shadow-sm  blur-sm backdrop-blur-sm rounded-sm outline-none ring border first:*:pt-0 last:*:pb-0">
-        <div className="decoration-clone rounded backdrop-blur blur drop-shadow shadow bg-[--brand-color]">
+      <div className="bg-opacity-50 text-opacity-50 border-opacity-50 divide-opacity-50 ring-opacity-50 placeholder-opacity-50 shrink-0 grow-0 text-ellipsis box-decoration-slice shadow-xs drop-shadow-xs  blur-xs backdrop-blur-xs rounded-xs outline-hidden ring-3 border *:first:pt-0 *:last:pb-0">
+        <div className="box-decoration-clone rounded-sm backdrop-blur-sm blur-sm drop-shadow-sm shadow-sm bg-(--brand-color)">
           asdf
         </div>
       </div>
-      <div className="dark bg-gradient-to-r from-red-500 to-yellow-400 hover:from-blue-500">
+      <div className="dark bg-linear-to-r from-red-500 to-yellow-400 hover:from-blue-500">
         sdfgasdfasdf
       </div>
     </div>
